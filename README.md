@@ -11,7 +11,9 @@ Installation  :
 How To Use (simplify):
 
 $this->drop_down->select(YOUR_ID, YOUR_ANOTHER_COLUMN);
+
 $this->drop_down->from(YOUR_TABLE);
+
 $dropdown = $this->drop_down->build();
 
 Show in Your View File:
