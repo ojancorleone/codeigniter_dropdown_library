@@ -16,11 +16,8 @@ $this->drop_down->from(YOUR_TABLE);
 
 $dropdown = $this->drop_down->build();
 
-Show in Your View File:
-  
-  <select>
-    <?php echo $drop_down; ?>
-  </select>
+
+#NOTE : Echo inside select tag html in Your view file
 
 
 Method List :
